@@ -1,0 +1,18 @@
+/* styles.css */
+
+/* Default (Light Mode) */
+#svg-icon {
+    fill: #000000; /* Black for light theme */
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    #svg-icon {
+        fill: #FFFFFF; /* White for dark theme */
+    }
+}
+
+/* Optional: transition for smooth color change */
+#svg-icon {
+    transition: fill 0.3s ease;
+}
